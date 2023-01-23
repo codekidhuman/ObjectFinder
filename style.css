@@ -1,0 +1,26 @@
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #73e5ff;
+    padding: 10px;
+    border-width: 20px;
+    border-radius: 5px;
+    border-color: aquamarine;
+}
+#footer b
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+canvas
+{
+    border-width: 16px;
+    border-radius: 8px;
+    border-style: double;
+    border-color: aquamarine;
+}
+#heading
+{
+    margin: 5px;
+}
