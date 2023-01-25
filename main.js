@@ -5,7 +5,7 @@ function setup()
 canv = createCanvas(400, 300);
 canv.center();
 vid = createCapture(VIDEO);
-vid.size(300,300);
+vid.size(400,300);
 vid.hide();
 }
 function start()
@@ -21,5 +21,5 @@ function modelLoaded()
 }
 function draw()
 {
-    image(vid, 0, 0, 300, 300);
+    image(vid, 0, 0, 400, 300);
 }
